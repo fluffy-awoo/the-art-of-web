@@ -42,7 +42,7 @@ BLOCKLIST = [
     (r"onanimationiteration", re.IGNORECASE),
     (r"onanimationend", re.IGNORECASE),
     (r"onanimationcancel", re.IGNORECASE),
-    (r"style\s*=", re.IGNORECASE),
+    (r"style", re.IGNORECASE),
     (r"animation", re.IGNORECASE),
     (r"keyframes", re.IGNORECASE),
     (r"content-?visibility", re.IGNORECASE),
