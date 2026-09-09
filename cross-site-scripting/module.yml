@@ -209,6 +209,9 @@ resources:
       - name: SSH
   - type: header
     content: Filters
+  - name: Other Resources
+    type: markdown
+    file: filter-resources.md
   - id: filter-encoding
     name: Past the Blocklist
     type: challenge
